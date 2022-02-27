@@ -41,7 +41,9 @@
     transform: rotate(360deg);
   }
 }
-
+.Curso{
+  text-align: left;
+}
 .AreaText{
   float:left;
   width: 80%;

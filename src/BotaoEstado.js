@@ -14,7 +14,7 @@ export default class BotaoEstado extends Component {
       super(props)
        
       // Set initial state
-      this.state = {isModalOpen: false, msg : 'Awari React Course', content:''}
+      this.state = {isModalOpen: false, msg : 'React Course', content:''}
        
       // Binding this keyword
       this.handleClick = this.handleClick.bind(this)
@@ -22,7 +22,7 @@ export default class BotaoEstado extends Component {
    
     renderContent(){
       return (
-        <div>
+        <div className='Curso'>
             <button onClick={this.revertState()}>
                 x
             </button>
@@ -40,7 +40,7 @@ export default class BotaoEstado extends Component {
         // Changing state
         this.setState({
             isModalOpen: true,   
-            msg : 'Awari React Course Content',
+            msg : 'React Course Content',
             content : this.renderContent()
         })
     }
@@ -48,7 +48,7 @@ export default class BotaoEstado extends Component {
     revertState(){
         this.setState({
             isModalOpen: false,
-            msg : 'Awari React Course',
+            msg : 'React Course',
             content : this.render(this.state)
         })
     }
@@ -56,7 +56,7 @@ export default class BotaoEstado extends Component {
     render(){
       return (
         <div>
-            <h2>Message :</h2>
+            <h2>Awari</h2>
            
    
             <div>{this.state.msg}</div>

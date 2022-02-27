@@ -1,6 +1,5 @@
 import logo from './logo.svg';
 import Header from './Header';
-import BotaoEstado from './BotaoEstado';
 import BtnModal from './BtnModal';
 import ListImages from './ListImages';
 import BtnText from './BtnText';
@@ -11,7 +10,6 @@ function App() {
     <div className="App">
       <header className="App-header">
         <Header />
-          <BotaoEstado />
           <BtnModal />
           <BtnText />
           <ListImages />
