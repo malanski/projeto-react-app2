@@ -1,23 +1,29 @@
 import logo from './logo.svg';
+import Header from './Header';
+import ListImages from './ListImages';
+import BtnModal from './BtnModal';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+        <Header />
+          
+          <BtnModal />
+          <ListImages />
+
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://github.com/malanski/projeto-react-app2"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Repository
         </a>
       </header>
+      <img src={logo} className="App-logo" alt="logo" />
+
     </div>
   );
 }
