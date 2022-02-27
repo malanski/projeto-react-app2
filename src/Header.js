@@ -6,7 +6,8 @@ import RestoreIcon from '@mui/icons-material/Restore';
 import FavoriteIcon from '@mui/icons-material/Favorite';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 
-import Switch from './Switch'
+import Switch from './Switch';
+
 
 export default function Header() {
   const [value, setValue] = React.useState('recents');
@@ -18,6 +19,8 @@ export default function Header() {
   return (
     <BottomNavigation sx={{ width: 500 }} value={value} onChange={handleChange}>
         <Switch />
+        
+
       <BottomNavigationAction
         label="Recents"
         value="recents"

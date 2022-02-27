@@ -1,3 +1,8 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +40,39 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.AreaText{
+  float:left;
+  width: 80%;
+  margin: 30px 10%;
+  background: black;
+  color: white;
+  border-radius: 15px;
+  padding: 15px;
+  font-size: 20px;
+  line-height: 20px;
+}
+.DivBotao{
+  float: left;
+  width: 100%;
+  text-align: center;
+}
+
+.Botao{
+  display: inline-block;
+  border: 0;
+  padding: 10px 20px;
+  background-color: black;
+  color: #61dafb;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 17px;
+}
+.show{
+  display: block;
+}
+.hide{
+  display: none;
 }
