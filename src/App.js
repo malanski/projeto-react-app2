@@ -1,8 +1,9 @@
 import logo from './logo.svg';
 import Header from './Header';
+import BtnGallery from './BtnGallery';
 import BtnModal from './BtnModal';
-import ListImages from './ListImages';
-import BtnText from './BtnText';
+
+import BtnTattoos from './BtnTattoos';
 import './App.css';
 
 function App() {
@@ -10,9 +11,11 @@ function App() {
     <div className="App">
       <header className="App-header">
         <Header />
+          <BtnGallery />
+
           <BtnModal />
-          <BtnText />
-          <ListImages />
+
+          <BtnTattoos />
 
         <a
           className="App-link"

@@ -1,12 +1,12 @@
 import React from 'react';
-import AreaText from './AreaText';
+import AreaGallery from './AreaGallery';
 import Botao from './Botao';
 
-export default class BtnText extends React.Component{
+export default class BtnGallery extends React.Component{
     constructor(){
         super();
         this.state={
-            nameBtn: 'Esconder',
+            nameBtn: 'Esconder Galeria',
             DivClasse: 'show'
         }
     }
@@ -16,10 +16,10 @@ export default class BtnText extends React.Component{
         var NameBtn;
         if(this.state.DivClasse === 'show'){
             Estado="hide";
-            NameBtn='Mostrar';
+            NameBtn='Mostrar Galeria';
         } else {
             Estado="show";
-            NameBtn='Esconder';
+            NameBtn='Esconder Galeria';
         }
         this.setState({
             nameBtn: NameBtn,
@@ -29,7 +29,7 @@ export default class BtnText extends React.Component{
     render(){
         return(
             <div>
-                <AreaText classSequencia={this.state.DivClasse} texto="Ulisses Developer" />
+                <AreaGallery classSequencia={this.state.DivClasse} texto="Ulisses Developer" />
                 <Botao funcao={this.alterState.bind(this)} valor={this.state.nameBtn} />
             </div>
         )
