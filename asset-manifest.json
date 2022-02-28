@@ -1,16 +1,40 @@
 {
   "files": {
     "main.css": "/projeto-react-app2/static/css/main.a5de096f.css",
-    "main.js": "/projeto-react-app2/static/js/main.840b4ea6.js",
+    "main.js": "/projeto-react-app2/static/js/main.01d0b7da.js",
     "static/js/787.f4617de7.chunk.js": "/projeto-react-app2/static/js/787.f4617de7.chunk.js",
+    "static/media/damaLeques.jpg": "/projeto-react-app2/static/media/damaLeques.23e7cf78213c6c29b04e.jpg",
+    "static/media/retratoSherlok.jpg": "/projeto-react-app2/static/media/retratoSherlok.640e933cde79991c1f48.jpg",
+    "static/media/retratoAmelie.jpg": "/projeto-react-app2/static/media/retratoAmelie.52c3879235ca10307ace.jpg",
+    "static/media/retrato02.jpg": "/projeto-react-app2/static/media/retrato02.a49165a61e07c943f905.jpg",
+    "static/media/retratoOriental.jpg": "/projeto-react-app2/static/media/retratoOriental.89d1421845374328bbd1.jpg",
+    "static/media/retrato01.jpg": "/projeto-react-app2/static/media/retrato01.c5e148de0172c32b35cf.jpg",
+    "static/media/tattoo02.jpg": "/projeto-react-app2/static/media/tattoo02.410868d5962431c6c7d1.jpg",
+    "static/media/tattoo00.jpg": "/projeto-react-app2/static/media/tattoo00.399bee11bfd645ed9a0e.jpg",
+    "static/media/tattoo08.jpg": "/projeto-react-app2/static/media/tattoo08.ea2c7670369ba7c5ef5d.jpg",
+    "static/media/onepunchman.jpeg": "/projeto-react-app2/static/media/onepunchman.9febd69d1566aabef80f.jpeg",
+    "static/media/tattoo01.jpg": "/projeto-react-app2/static/media/tattoo01.d985f7c828cd86511192.jpg",
+    "static/media/spiderman.jpeg": "/projeto-react-app2/static/media/spiderman.4a504dfffb30e3c4d377.jpeg",
+    "static/media/tattoo04.jpg": "/projeto-react-app2/static/media/tattoo04.45918cdbca43fac5994d.jpg",
+    "static/media/tattoo06.jpg": "/projeto-react-app2/static/media/tattoo06.96a710bfbc1b3140a885.jpg",
+    "static/media/tattoo07.jpg": "/projeto-react-app2/static/media/tattoo07.c657f0ec4143307e0e11.jpg",
+    "static/media/desenho00.jpeg": "/projeto-react-app2/static/media/desenho00.e656c67c5f8efea365d9.jpeg",
+    "static/media/tattoo09.jpg": "/projeto-react-app2/static/media/tattoo09.9fdebf507b00601b2bdc.jpg",
+    "static/media/tattoo13.jpeg": "/projeto-react-app2/static/media/tattoo13.e5abddc8e9f5096c0fd2.jpeg",
+    "static/media/tattoo10.jpeg": "/projeto-react-app2/static/media/tattoo10.c94757c420a9141c7628.jpeg",
+    "static/media/oriental02.jpeg": "/projeto-react-app2/static/media/oriental02.02aa4eb624df5919569e.jpeg",
+    "static/media/tattoo11.jpeg": "/projeto-react-app2/static/media/tattoo11.8555cf8705936c3b7d40.jpeg",
+    "static/media/caveira.jpeg": "/projeto-react-app2/static/media/caveira.001d0bfc518a0be81b50.jpeg",
+    "static/media/tattoo12.jpeg": "/projeto-react-app2/static/media/tattoo12.a37432e89c22d3a3cf99.jpeg",
+    "static/media/oriental1.jpeg": "/projeto-react-app2/static/media/oriental1.46ff08c88617b231dc99.jpeg",
     "static/media/logo.svg": "/projeto-react-app2/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/projeto-react-app2/index.html",
     "main.a5de096f.css.map": "/projeto-react-app2/static/css/main.a5de096f.css.map",
-    "main.840b4ea6.js.map": "/projeto-react-app2/static/js/main.840b4ea6.js.map",
+    "main.01d0b7da.js.map": "/projeto-react-app2/static/js/main.01d0b7da.js.map",
     "787.f4617de7.chunk.js.map": "/projeto-react-app2/static/js/787.f4617de7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a5de096f.css",
-    "static/js/main.840b4ea6.js"
+    "static/js/main.01d0b7da.js"
   ]
 }
