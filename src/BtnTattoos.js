@@ -31,7 +31,7 @@ export default class BtnTattoos extends React.Component{
             <div>
                 <Botao funcao={this.alterState.bind(this)} valor={this.state.nameBtn} />
 
-                <AreaTattoos classSequencia={this.state.DivClasse} texto="Ulisses Tattoo Art" />
+                <AreaTattoos classSequencia={this.state.DivClasse} texto="Tattoos" />
             </div>
         )
     }

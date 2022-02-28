@@ -29,7 +29,7 @@ export default class BtnGallery extends React.Component{
     render(){
         return(
             <div>
-                <AreaGallery classSequencia={this.state.DivClasse} texto="Ulisses Developer" />
+                <AreaGallery classSequencia={this.state.DivClasse} texto="Artes Visuais" />
                 <Botao funcao={this.alterState.bind(this)} valor={this.state.nameBtn} />
             </div>
         )

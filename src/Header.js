@@ -1,10 +1,10 @@
 import * as React from 'react';
 import BottomNavigation from '@mui/material/BottomNavigation';
 import BottomNavigationAction from '@mui/material/BottomNavigationAction';
-import FolderIcon from '@mui/icons-material/Folder';
-import RestoreIcon from '@mui/icons-material/Restore';
-import FavoriteIcon from '@mui/icons-material/Favorite';
-import LocationOnIcon from '@mui/icons-material/LocationOn';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import SportsMartialArtsIcon from '@mui/icons-material/SportsMartialArts';
+import HomeIcon from '@mui/icons-material/Home';
 
 import Switch from './Switch';
 
@@ -17,26 +17,29 @@ export default function Header() {
   };
 
   return (
-    <BottomNavigation sx={{ width: 500 }} value={value} onChange={handleChange}>
+    <BottomNavigation sx={{ width: '100%', marginTop: '0'}} value={value} onChange={handleChange}>
         <Switch />
         
 
       <BottomNavigationAction
-        label="Recents"
-        value="recents"
-        icon={<RestoreIcon />}
+        label="Home"
+        value="home"
+        icon={<HomeIcon />}
       />
       <BottomNavigationAction
-        label="Favorites"
-        value="favorites"
-        icon={<FavoriteIcon />}
+        label="Contato"
+        value="contato"
+        icon={<LinkedInIcon />}
       />
       <BottomNavigationAction
-        label="Nearby"
-        value="nearby"
-        icon={<LocationOnIcon />}
+        label="Habilidades"
+        value="habilidades"
+        icon={<SportsMartialArtsIcon />}
       />
-      <BottomNavigationAction label="Folder" value="folder" icon={<FolderIcon />} />
+      <BottomNavigationAction
+        label="Projetos"
+        value="projetos"
+        icon={<GitHubIcon />} />
     </BottomNavigation>
   );
 }
