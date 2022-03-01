@@ -1,6 +1,6 @@
 import { Switch } from '@mui/material';
 import * as React from 'react';
-import { Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import BtnGallery from './BtnGallery';
 import BtnModal from './BtnModal';
 import BtnTattoos from './BtnTattoos';
@@ -27,6 +27,8 @@ export default class SwitchMode extends React.Component {
     }
         return(
             <div className={boxClass.join(' ')}>
+              <BrowserRouter>
+
                 <Switch onClick={this.toggle.bind(this)} />
             
                 <div >
@@ -34,7 +36,7 @@ export default class SwitchMode extends React.Component {
                 </div>
                 <Header />
                 <Routes>
-                    <Route path='/' element={<Home />} />
+                    <Route path='/home' element={<Home />} />
                     <Route path='/contato' element={<Contato />} />
                     <Route path='/habilidades' element={<Habilidades />} />
                     <Route path='/projetos' element={<Projetos />} />
@@ -56,6 +58,7 @@ export default class SwitchMode extends React.Component {
                 </a>
                 <img src={logo} className="App-logo" alt="logo" />
                 </footer>     
+              </BrowserRouter>
 
             </div>    
             

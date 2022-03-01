@@ -47,6 +47,21 @@
 
 .header-btn{
   width: 100px;
+  
+}
+main{
+  width: 80%;
+  margin-left: 10%;
+}
+h2{
+  text-align: left;
+}
+.main-ul{
+  text-align: left;
+}
+li span{
+  text-transform: uppercase;
+  font-size: larger;
 }
 .Curso{
   text-align: left;

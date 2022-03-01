@@ -25,7 +25,7 @@ export default function Header() {
       value={value}
       onChange={handleChange}> 
 
-      <Link to="/">
+      <Link to="/home">
         <BottomNavigationAction
           label="Home"
           value="home"
