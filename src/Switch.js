@@ -63,7 +63,8 @@ export default function CustomizedSwitches() {
         control={<MaterialUISwitch
           sx={{ m: 1 }}
           defaultChecked
-          label="" />} />
+          label="" />} 
+      />
     </FormGroup>
   );
 }

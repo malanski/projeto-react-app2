@@ -19,20 +19,8 @@ function App() {
     <div className="App">
       <BrowserRouter>
 
-      <SwitchMode className='box'>
-       
-          <Routes>
-            <Route path='/' element={<Home />} />
-            <Route path='/contato' element={<Contato />} />
-            <Route path='/habilidades' element={<Habilidades />} />
-            <Route path='/projetos' element={<Projetos />} />
-          </Routes>
-            
-     
-          
-
-      </SwitchMode>
-          
+      <SwitchMode className='box' />
+         
       </BrowserRouter>
     </div>
   );

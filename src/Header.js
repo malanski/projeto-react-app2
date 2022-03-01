@@ -11,41 +11,38 @@ import HomeIcon from '@mui/icons-material/Home';
 
 
 export default function Header() {
-  const [value, setValue] = React.useState('recents');
+  const [value, setValue] = React.useState('home');
 
   const handleChange = (event, newValue) => {
+    /* event.preventDefault(); */
     setValue(newValue);
   };
 
   return (
     <BottomNavigation sx={{ 
-        width: '100%',
-        marginTop: '0'}}
+      width: '100%',
+      marginTop: '0'}}
       value={value}
-      onChange={handleChange}>
+      onChange={handleChange}> 
 
-        
-      
+      <Link to="/">
         <BottomNavigationAction
           label="Home"
           value="home"
-          icon={<Link to="/"><HomeIcon /></Link>}>
-
+          icon={<HomeIcon className='header-btn' />}>
         </BottomNavigationAction>
-      
-
-      
-        <BottomNavigationAction
-          label="Contato"
-          value="contato"
-          icon={<Link to="/contato"><LinkedInIcon /></Link>}
-        />
+      </Link>
+            
+      <BottomNavigationAction
+        label="Contato"
+        value="contato"
+        icon={<Link to="/contato"><LinkedInIcon /></Link>} />
 
       <BottomNavigationAction
         label="Habilidades"
         value="habilidades"
-        icon={<Link to="/habilidades"><SportsMartialArtsIcon /></Link>}
-      />
+        icon={<Link to="/habilidades"><SportsMartialArtsIcon /></Link>} />
+
       <BottomNavigationAction
         label="Projetos"
         value="projetos"

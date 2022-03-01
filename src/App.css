@@ -40,12 +40,14 @@
   color: white;
   text-align: center;
   vertical-align: middle;
-  cursor: pointer;
 }
 .box.green {
   background-color: green; 
 }
 
+.header-btn{
+  width: 100px;
+}
 .Curso{
   text-align: left;
 }
