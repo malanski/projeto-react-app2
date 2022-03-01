@@ -1,33 +1,39 @@
-import logo from './logo.svg';
-import Header from './Header';
-import BtnGallery from './BtnGallery';
-import BtnModal from './BtnModal';
+import {
+  BrowserRouter,
+  Routes,
+  Route,
+} from "react-router-dom";
 
-import BtnTattoos from './BtnTattoos';
+
+import {Home} from './pages/Home';
+import {Contato} from './pages/Contato';
+import {Habilidades} from './pages/Habilidades';
+import {Projetos} from './pages/Projetos';
+
+
 import './App.css';
+import SwitchMode from "./SwitchMode";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <Header />
-          <BtnGallery />
+      <BrowserRouter>
 
-          <BtnModal />
+      <SwitchMode className='box'>
+       
+          <Routes>
+            <Route path='/' element={<Home />} />
+            <Route path='/contato' element={<Contato />} />
+            <Route path='/habilidades' element={<Habilidades />} />
+            <Route path='/projetos' element={<Projetos />} />
+          </Routes>
+            
+     
+          
 
-          <BtnTattoos />
-
-        <a
-          className="App-link"
-          href="https://github.com/malanski/projeto-react-app2"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Repository
-        </a>
-      </header>
-      <img src={logo} className="App-logo" alt="logo" />
-
+      </SwitchMode>
+          
+      </BrowserRouter>
     </div>
   );
 }
