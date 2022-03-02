@@ -13,7 +13,7 @@ Tecnologias:
 
 ## Atividade 6 Especificação 2
 
-Criar uma Aplicação react utilizano node 
+Criar uma Aplicação react utilizando Node 
 ```javaScript
 npx create-react-app projeto-react-app2
 npm start
