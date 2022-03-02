@@ -1,6 +1,6 @@
 import { Switch } from '@mui/material';
 import * as React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import BtnGallery from './BtnGallery';
 import BtnModal from './BtnModal';
 import BtnTattoos from './BtnTattoos';
@@ -27,7 +27,7 @@ export default class SwitchMode extends React.Component {
     }
         return(
             <div className={boxClass.join(' ')}>
-              <BrowserRouter>
+              <HashRouter>
 
                 <Switch onClick={this.toggle.bind(this)} />
             
@@ -58,7 +58,7 @@ export default class SwitchMode extends React.Component {
                 </a>
                 <img src={logo} className="App-logo" alt="logo" />
                 </footer>     
-              </BrowserRouter>
+              </HashRouter>
 
             </div>    
             
