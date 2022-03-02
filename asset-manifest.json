@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/projeto-react-app2/static/css/main.590c4a5e.css",
-    "main.js": "/projeto-react-app2/static/js/main.c75681c9.js",
+    "main.css": "/projeto-react-app2/static/css/main.bf556ed7.css",
+    "main.js": "/projeto-react-app2/static/js/main.fcdea47e.js",
     "static/js/787.f4617de7.chunk.js": "/projeto-react-app2/static/js/787.f4617de7.chunk.js",
     "static/media/damaLeques.jpg": "/projeto-react-app2/static/media/damaLeques.23e7cf78213c6c29b04e.jpg",
     "static/media/retratoSherlok.jpg": "/projeto-react-app2/static/media/retratoSherlok.640e933cde79991c1f48.jpg",
@@ -29,12 +29,12 @@
     "static/media/oriental1.jpeg": "/projeto-react-app2/static/media/oriental1.46ff08c88617b231dc99.jpeg",
     "static/media/logo.svg": "/projeto-react-app2/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/projeto-react-app2/index.html",
-    "main.590c4a5e.css.map": "/projeto-react-app2/static/css/main.590c4a5e.css.map",
-    "main.c75681c9.js.map": "/projeto-react-app2/static/js/main.c75681c9.js.map",
+    "main.bf556ed7.css.map": "/projeto-react-app2/static/css/main.bf556ed7.css.map",
+    "main.fcdea47e.js.map": "/projeto-react-app2/static/js/main.fcdea47e.js.map",
     "787.f4617de7.chunk.js.map": "/projeto-react-app2/static/js/787.f4617de7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.590c4a5e.css",
-    "static/js/main.c75681c9.js"
+    "static/css/main.bf556ed7.css",
+    "static/js/main.fcdea47e.js"
   ]
 }
