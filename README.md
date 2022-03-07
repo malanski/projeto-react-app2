@@ -1,5 +1,5 @@
 # Projeto React App 2  
-Atividad 6.2 Curso de Desenvolvimento Web AWARI  
+Atcivity 6.2 from Web Development Course at Awari School
 
 Tecnologias:  
 - React
