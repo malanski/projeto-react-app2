@@ -32,7 +32,7 @@ export default class SwitchMode extends React.Component {
                 <Switch onClick={this.toggle.bind(this)} />
             
                 <div >
-                    {this.state.addClass ? "Remove a class" : "Add a class (click the box)"}<br />
+                    {this.state.addClass ? "" : ""}<br />
                 </div>
                 <Header />
                 <Routes>

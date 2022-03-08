@@ -4,29 +4,28 @@ export const Habilidades = (props) => {
             <h1>Habilidades</h1>
 
             <div className="flex-row">
-                <main>
-                    <h2 >Meus projetos utilizam:</h2>
+                <div className="lista">
 
+                    <h2>Technologies</h2>
                     
                     <ul className="main-ul">
                         <li>
-                            <span>Front-end</span>
+                            <span>Front-end Development</span>
                             <blockquote>
-                                HTML<br/>
-                                CSS - SASS<br/>
                                 JavaScript<br/>
                                 React<br/>
+                                Next<br/>
                                 Node<br/>
+                                Responsive applications<br/>
                                 VsCode<br/>
+                                CSS - SASS<br/>
+                                HTML<br/>
                                 GitHub<br/>
                             </blockquote>
                         </li>
                         <li>
                             <span>Design</span>
                             <blockquote>
-                                Desenho técnico e artístico<br/>
-                                Pintura<br/>
-                                Ilustração<br/>
                                 Photoshop<br/>
                                 Illustrator<br/>
                                 Figma<br/>
@@ -37,48 +36,83 @@ export const Habilidades = (props) => {
                         <li>
                             <span>Audio</span>
                             <blockquote>
-                                Ableton Live<br/>
-                                Composição musical<br/>
-                                Violão e Guitarra<br/>
-                                Mixagem<br/>
-                                Produção e edição
+                                Ableton live<br/>
+                                Nuendo<br/>
+                                Audacity<br/>
+                                FruitLoops
                             </blockquote>
                         </li>
                     </ul>
-                </main>
+                </div>
 
-                <main className="ninja">
-                    <h2 >Uma dadiva dos Ninja</h2>
+                <div className="lista">
+                    <h2 >Other Experiences</h2>
 
                     
                     <ul className="main-ul">
                         <li>
-                            <span>Tai-Jutsu</span>
+                            <span>Visual Arts</span>
                             <blockquote>
-                                Kungfu: Shaolin do Norte e Sul<br/>
-                                Bastão<br/>
-                                Luta corpo-a-corpo
+                                Drawing<br/>
+                                Illustration<br/>
+                                Tattoo<br/>
+                                Painting and water-color<br/>
+                                Photography<br/>
+                                Art History<br/>
+                                Digital Art<br/>
+                                Animation and Stop-Motion<br/>
+                            </blockquote>
+                            <br/>
+                            <span>Basics and affinities with:</span>
+                            <blockquote>
+                                Story Boarding<br/>
+                                Comics and Manga<br/>
+                                Game Development<br/>
+                                Modeling and sculpture
                             </blockquote>
                         </li>
                         <li>
-                            <span>Parkour</span>
+                            <span>Music</span>
                             <blockquote>
-                                Subida de muros<br/>
-                                Rolamento evasivo<br/>
-                                Treinamento de Resistência<br/>
+                                Composing and arrangement<br/>
+                                Recording and Mixing<br/>
+                                Electric and Acoustic Guitar<br/>
                             </blockquote>
                         </li>
-                        <li>
-                            <span>Arte da Furtividade</span>
-                            <blockquote>
-                                Taticas de Combate<br/>
-                                Camuflagem das Sombras<br/>
-
-
-                            </blockquote>
-                        </li>
+                       
                     </ul>
-                </main>
+                </div>
+
+                <div className="lista ninja">
+                    <h2>Interests</h2>
+
+                    
+                    <ul className="main-ul">
+                    <li>
+                            <span>science</span>
+                            <blockquote>
+                                Computer Science<br/>
+                                Electronics and D.I.Y.<br/>
+                                Astronomy and Rocket Science<br/>
+                                Archeology<br/>
+                                Botanic<br/>
+                                Ecology<br/>
+                                Anthropology and Sociology
+                            </blockquote>
+                        </li>
+                        <li>
+                            <span>Health and Well being</span>
+                            <blockquote>
+                                Psychology<br/>
+                                Martial Arts: Kung-fu North and South Shaolin, Kendo e Judo<br/>
+                                Parkour<br/>
+                                Politics<br/>
+                                Traking, Survival and Climbing
+                            </blockquote>
+                        </li>
+                        
+                    </ul>
+                </div>
             </div>
         </div>
 

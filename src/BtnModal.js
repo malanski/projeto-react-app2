@@ -27,6 +27,8 @@ const Backdrop = styled('div')`
 `;
 
 const style = {
+  color: 'white',
+
   width: 400,
   bgcolor: 'black',
   border: '2px solid #000',

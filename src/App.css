@@ -42,7 +42,7 @@
   vertical-align: middle;
 }
 .box.green {
-  background-color: green; 
+  background-color: rgb(15, 15, 15) 
 }
 
 .header-btn{
@@ -51,16 +51,28 @@
 }
 .flex-row{
   display: flex;
+  justify-content: space-between;
 }
+
 main{
   width: 80%;
   margin-left: 10%;
 }
+
+.lista{
+  padding: 10px;
+  border: 2px solid white;
+  border-radius: 15px;
+  
+}
 h2{
-  text-align: left;
+
+  text-align: center;
 }
 .main-ul{
+  
   text-align: left;
+  width: 25vw;
 }
 li{
   margin-top: 20px;
