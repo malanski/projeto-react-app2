@@ -1,20 +1,19 @@
 export const Home = (props) => {
     return (
         <div>
-            <h1>Home</h1>
+            <h1>FrontEnd</h1>
             <main>
-                <h2>Técnologias envolvidas nesse Projeto</h2>
+                <h2>Technologies in this Project</h2>
+
                 <ul className="main-ul">
                     <li>
-                        <span>React</span>
+                        <span>React.js</span>
                         <blockquote>
-                            Router<br/>
-                            State<br/>
-                            Components
+                            Library
                         </blockquote>
                     </li>
                     <li>
-                        <span>Node</span>
+                        <span>Node.js</span>
                     </li>
                     <li>
                         <span>JavaScript</span>
